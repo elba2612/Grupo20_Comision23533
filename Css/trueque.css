@@ -1,0 +1,163 @@
+.nav { 
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous">
+ }
+
+body {
+    background-color: #fea500;
+}
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url("GlacialIndifference-Regular.otf");
+  }
+  .Glacial {
+    font-family: "Glacial Indifference";
+   
+  }
+
+
+
+.caja {
+   
+   
+    background-color: #fea500;
+    
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor-grid { 
+    height: 700px;
+    display:grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 25% 15% auto 15%;
+    margin-top: 0px;
+    background-color:#fea500;
+    
+    
+   
+    
+    
+    
+    
+}
+.item1 {
+    grid-column: 2/3;
+    background-color:#fea500;
+    font-size: 2vw;
+    padding: 0%;
+    line-height: 10px;
+    
+}
+.item1-1 {   
+    grid-column: 1/2;
+    background-color: #fea500;
+    font-size: 40px;
+    padding: 0%;
+}
+
+
+.item2 {
+    grid-column: 1/4;
+    background-color: #fea500;
+}
+.item3 {
+    grid-column: 1/4;
+    background-color: #fea500;
+}
+.item4 {
+    grid-column: 1/4;
+    background-color: #fea500;
+    
+}
+.mascara {
+    background-color:#fea500;
+    display: flex;         
+    position:absolute;
+    width: 30%;
+    height: 140px;
+}
+.mascara2 {
+    background-color: #fea500;
+   
+    position: relative;
+    
+}
+.mascara2 img {width: 85%;
+      
+    position: relative;
+margin: 0%;}
+
+.nav__responsive-ul {
+    display:none;
+}
+.nav {
+    background-color: #fea500
+}
+.nav__li {
+    display:inline-block;
+    padding: 12px;
+    color:black
+
+}
+.nav__li a {
+    color:black;
+    text-decoration: none;
+}
+
+.nav__li-container a {
+    color:black;
+    text-decoration: none;
+}
+.nav__li a:hover {
+    color:white
+}
+.nav__li:hover > a{
+    color:white
+    
+}
+
+.nav__li-container:hover {
+    color:white;
+    
+}   
+.nav__li:hover {
+    color:black;
+    
+}   
+.nav__li i {
+    
+    box-sizing: border-box;
+    text-align:right ;
+    margin-inline:right;
+    margin-right: 5px;
+
+}
+.nav__responsive-button {
+    float:right;
+    font-size: 25px;
+    padding: 6px 20px;
+  ;
+    
+}
+
+@media only screen and (max-width:600px) {
+            .nav__ul{
+                display:none;
+            }
+        
+            .nav__responsive-ul {
+            display:block;
+            background-color: #fea500;
+            position: absolute;
+            width: 80%;
+            height: 100%;
+            
+            }
+    
+            .nav {
+                height: 17%;
+                width: 100%;
+                background-color:#fea500;
+                
+            }
+}
