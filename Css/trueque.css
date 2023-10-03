@@ -1,13 +1,13 @@
-.nav { 
-    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous">
- }
+ 
+    
+ 
 
 body {
     background-color: #fea500;
 }
 @font-face {
     font-family: "Glacial Indifference";
-    src: url("GlacialIndifference-Regular.otf");
+    src: url("Sources/GlacialIndifference-Regular.otf");
   }
   .Glacial {
     font-family: "Glacial Indifference";
